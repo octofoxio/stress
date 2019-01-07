@@ -1,5 +1,5 @@
 # stress 🔥
-Stellar cool address generator, burn your CPU with ED25519 hash randomize to find cool adress
+Stellar cool address generator, burn your CPU with ED25519 hash randomize to find coolest address.
 
 
 # Installation
