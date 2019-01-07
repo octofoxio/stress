@@ -28,9 +28,6 @@ func Run(c chan Result, in string) {
 		seed = kp.Seed()
 		prefix = string([]rune(addr)[len(addr)-len(in) : len(addr)])
 		count++
-		//if ok, _ := regexp.MatchString("OFOX$", prefix); ok {
-		//	fmt.Printf("%s\n%s\n\n\n", addr, seed)
-		//}
 	}
 	c <- Result{
 		seed: seed,
